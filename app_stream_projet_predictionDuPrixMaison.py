@@ -14,7 +14,7 @@ warnings.filterwarnings('ignore')
 st.write(""" # Prediction du prix d'une maison""")
 
 #import dataset
-data=pd.read_csv(r"data/train.csv")
+data=pd.read_csv(r"train.csv")
 st.write("### Head of the train DataFrame")
 st.write(data.head())
 
